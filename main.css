@@ -1700,7 +1700,7 @@ header li ul.sub_menu li a:hover {
 }
 
 .navbar {
-  padding-top: 25px;
+  padding: 0px;
 }
 
 header.sticky_header {
@@ -3176,4 +3176,9 @@ a.dropdown-hover{
 a.dropdown-hover:hover{
   color:#f50136;
   background-color: white;
+}
+.engi-logo
+{
+  padding-top: 17px;
+  padding-left: 10px;
 }
