@@ -325,12 +325,12 @@ img {
   top: 0;
   bottom: 0;
   width: 100%;
-  background-color: #f7f7f7;
+  background-color:#030313;
   z-index: 999999;
 }
 .loader .loader-inner {
   position: absolute;
-  border: 2px solid #f50136;
+  border: 2px solid #16d8e4;
   border-radius: 50%;
   width: 40px;
   height: 40px;
@@ -3185,7 +3185,7 @@ a.dropdown-hover:hover{
 @font-face
 {
   font-family: spaceAge;
-  src:url("spaceAge.ttf") format("truetype");
+  src:url("../fonts/spaceAge.ttf") format("truetype");
 }
 .EngiTitle{
   font-family: spaceAge;
