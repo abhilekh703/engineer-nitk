@@ -40,7 +40,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat",sans-serif;
   font-weight: 700;
-  color: floralwhite;
+  color: #15d9e5;
   line-height: 1.3;
 }
 
@@ -90,7 +90,7 @@ a {
   color: inherit;
   text-decoration: none;
   cursor: pointer;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 400;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
@@ -118,6 +118,7 @@ ul.nosyely_list {
 }
 .section_title .title {
   text-transform: uppercase;
+  color: #16d8e4;
   padding: 10px 0;
   font-size: 36px;
 }
@@ -125,7 +126,6 @@ ul.nosyely_list {
   width: 30px;
   content: " ";
   position: absolute;
-  border-top: solid 3px #f50136;
   left: 0;
   top: 0;
 }
@@ -139,7 +139,7 @@ ul.nosyely_list {
   padding: 25px;
   min-width: 120px;
   background-color: rgba(4,16,31,0.8);
-  color: #ffffff;
+  color: #16d8e4;
   font-size: 30px;
   font-weight: 600;
   text-align: center;
@@ -325,12 +325,12 @@ img {
   top: 0;
   bottom: 0;
   width: 100%;
-  background-color: #f7f7f7;
+  background-color:#030313;
   z-index: 999999;
 }
 .loader .loader-inner {
   position: absolute;
-  border: 2px solid #f50136;
+  border: 2px solid #16d8e4;
   border-radius: 50%;
   width: 40px;
   height: 40px;
@@ -1658,7 +1658,7 @@ header ul.menu li a.nav-link {
   font-weight: 400;
   display: block;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #16d8e4;
 }
 header ul.menu li a.nav-link:hover {
   color: #f50136;
@@ -1705,7 +1705,7 @@ header li ul.sub_menu li a:hover {
 }
 
 header.sticky_header {
-  background-color: #18181c;
+  background-color: #061625;
   margin: 0;
   padding: 5px;
   -webkit-box-shadow: 0 0 42px rgba(0, 0, 0, 0.08);
@@ -1756,7 +1756,7 @@ header.sticky_header {
 -------------------------------------------------------- */
 footer {
   padding: 50px 0 100px;
-  background-color: #0b031b;
+  background-color: #030713;
 }
 footer .footer_box {
   position: relative;
@@ -1766,13 +1766,12 @@ footer .footer_box h4.footer_title {
   text-transform: uppercase;
   padding: 10px 0;
   font-size: 18px;
-  color: #ffffff;
+  color: #16d8e4;
 }
 footer .footer_box h4.footer_title:before {
   width: 30px;
   content: " ";
   position: absolute;
-  border-top: solid 3px #f50136;
   left: 0;
   top: 0;
 }
@@ -1828,7 +1827,7 @@ footer .newsletter_form .form-control {
   font-size: 13px;
   padding: 10px;
   text-transform: capitalize;
-  color: #ffffff;
+  color: #16d8e4;
 }
 .copyright_footer ul.footer_menu {
   padding: 0;
@@ -1842,7 +1841,7 @@ footer .newsletter_form .form-control {
 .copyright_footer ul.footer_menu li a {
   padding: 10px;
   text-transform: capitalize;
-  color: #838383;
+  color: #16d8e4;
 }
 .copyright_footer ul.footer_menu li a:hover {
   color: #ffffff;
@@ -1910,16 +1909,16 @@ footer .newsletter_form .form-control {
 }
 
 .btn-primary {
-  background-color: #f50136;
-  border: solid 1px #f50136;
-  color: #ffffff;
+  background-color: #15d9e5;
+  border: solid 1px #15d9e5;
+  color: #1d2f45;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
 }
 .btn-primary:hover {
-  background-color: #18181c;
-  color: #ffffff;
-  border: solid 1px #18181c;
+  background-color: #1d2f45;
+  color: #15d9e5;
+  border: solid 1px #1d2f45;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
 }
@@ -2419,7 +2418,8 @@ Cover
   overflow: hidden;
 }
 .speaker_box .speaker_img img {
-  width: 100%;
+  width: 264px;
+  height: 255px;
   -webkit-transition: all ease-in-out 0.4s;
   transition: all ease-in-out 0.4s;
 }
@@ -2432,7 +2432,7 @@ Cover
   transition: all ease-in-out 0.4s;
 }
 .speaker_box .speaker_img .info_box .name {
-  color: #f50136;
+  color: #15d9e5;
   font-size: 16px;
   margin-bottom: 0;
   font-weight: 600;
@@ -2660,14 +2660,14 @@ Cover
   min-width: 1000px;
 }
 .table.event_calender thead.event_title {
-  background-color: #f50136;
-  color: #ffffff;
+  background-color: #061625;
+  color: #15d9e5;
   border: 0;
 }
 .table.event_calender thead.event_title th {
   vertical-align: bottom;
   border: 0;
-  font-size: 18px;
+  font-size: 25px;
   text-transform: capitalize;
   font-weight: 600;
 }
@@ -2682,7 +2682,7 @@ Cover
   display: inline-block;
 }
 .table.event_calender tbody {
-  background-color: #f0f2f6;
+  background-color: #030713;
 }
 .table.event_calender tbody td, .table.event_calender tbody th {
   padding: 30px 25px;
@@ -2693,12 +2693,13 @@ Cover
 .table.event_calender tbody td img, .table.event_calender tbody th img {
   border-radius: 4px;
   display: block;
-  max-width: 100px;
+  width: 350px;
+  height: 100px;
 }
 .table.event_calender tbody td.event_date {
   font-weight: 600;
   font-size: 30px;
-  color: #000;
+  color: #15d9e5;
 }
 .table.event_calender tbody td.event_date span {
   display: block;
@@ -3171,7 +3172,7 @@ textarea.form-control {
 Custom Additions
 ---------------------------------------------------------*/
 a.dropdown-hover{
-  color:white;
+  color:white ;
 }
 
 a.dropdown-hover:hover{
@@ -3182,4 +3183,24 @@ a.dropdown-hover:hover{
 {
   padding-top: 17px;
   padding-left: 10px;
+}
+@font-face
+{
+  font-family: spaceAge;
+  src:url("../fonts/spaceAge.ttf") format("truetype");
+}
+.EngiTitle{
+  font-family: spaceAge;
+  color: #16d8e4;
+}
+.timeCrack{
+  opacity: 0.1;
+  margin-left: 50px;
+  height:150px;
+}
+.img-mod{
+
+    height: 50vh;
+    width: 50vh;
+    margin-right:34vh;
 }
