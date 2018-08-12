@@ -3198,6 +3198,7 @@ a.dropdown-hover:hover{
   margin-left: 50px;
   height:150px;
 }
+<<<<<<< HEAD
 
 .loader-ss {
 	height: 101px;
@@ -3502,4 +3503,11 @@ a.dropdown-hover:hover{
 		0%	 	 {-moz-transform: translate(0px, 0px);}
 	87.5%	 	 {-moz-transform: translate(0px, 0px);}
 		100%	 {-moz-transform: translate(-55.5px, 55.5px);}
+=======
+.img-mod{
+
+    height: 50vh;
+    width: 50vh;
+    margin-right:34vh;
+>>>>>>> 61be3ded357193a408d45c2a59315ab09aaaff48
 }
