@@ -32,7 +32,7 @@ body {
   font-weight: 400;
   font-family: "Montserrat",sans-serif;
   background-color: black;
-  color:floralwhite;
+  color:#838383;
   font-style: normal;
   overflow-x: hidden;
 }
@@ -2205,9 +2205,10 @@ Cover
 }
 .inner_cover .inner_cover_content h3 {
   text-transform: capitalize;
-  color: #ffffff;
+  color: white;
   font-size: 48px;
   font-weight: 500;
+  opacity: 0.5;
 }
 
 .breadcrumbs {
@@ -2226,8 +2227,8 @@ Cover
   width: auto;
   display: inline-block;
   list-style: none;
-  background-color: #ffffff;
-  color: #18181c;
+  background-color: black;
+  color: #16d8e4;
   border-top-left-radius: 51px;
   border-top-right-radius: 51px;
 }
@@ -2241,7 +2242,7 @@ Cover
   border-top-left-radius: 0;
   width: 0;
   height: 0;
-  border-bottom: 40px solid #ffffff;
+  border-bottom: 40px solid black;
   border-left: 40px solid transparent;
 }
 .breadcrumbs ul:after {
@@ -2253,7 +2254,7 @@ Cover
   border-top-left-radius: 0;
   width: 0;
   height: 0;
-  border-bottom: 40px solid #ffffff;
+  border-bottom: 40px solid black;
   border-right: 40px solid transparent;
   content: " ";
 }
@@ -2262,16 +2263,16 @@ Cover
 }
 .breadcrumbs ul li a {
   padding: 13px;
-  font-size: 12px;
+  font-size: 20px;
   font-weight: 600;
   display: inline-block;
-  color: #18181c;
+  color: #16d8e4;
 }
 .breadcrumbs ul li span {
   padding: 13px;
-  font-size: 12px;
+  font-size: 20px;
   font-weight: 600;
-  color: #f50136;
+  color: #16d8e4;
 }
 
 @media (max-width: 767px) {
@@ -2589,7 +2590,7 @@ Cover
   font-size: 36px;
   font-weight: 700;
   text-transform: uppercase;
-  color: #18181c;
+  color: #16d8e4;
   position: relative;
   padding: 15px 0;
   line-height: 1.3;
@@ -2598,7 +2599,6 @@ Cover
   width: 30px;
   content: " ";
   position: absolute;
-  border-top: solid 4px #f50136;
   left: 0;
   top: 0;
 }
@@ -2612,7 +2612,7 @@ Cover
   font-weight: 400;
 }
 .event_box .event_info .event_date {
-  color: #f50136;
+  color: #16d8e4;
   font-size: 12px;
   font-weight: 700;
 }
@@ -3190,7 +3190,7 @@ a.dropdown-hover:hover{
 @font-face
 {
   font-family: spaceAge;
-  src:url("../fonts/spaceAge.ttf") format("truetype");
+  src:url("spaceAge.ttf") format("truetype");
 }
 .EngiTitle{
   font-family: spaceAge;
