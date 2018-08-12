@@ -1758,7 +1758,7 @@ header.sticky_header {
 -------------------------------------------------------- */
 footer {
   padding: 50px 0 100px;
-  background-color: #030713;
+  background-color: #1b293a;
 }
 footer .footer_box {
   position: relative;
@@ -1790,18 +1790,18 @@ footer .footer_social li {
   margin: 5px;
 }
 footer .footer_social li a {
-  border: solid 1px #f50136;
+  border: solid 1px #15d9e5;
   display: block;
   border-radius: 50px;
   padding: 7px 0;
   font-size: 24px;
-  color: #f50136;
+  color: #15d9e5;
   width: 40px;
   height: 40px;
   text-align: center;
 }
 footer .footer_social li a:hover {
-  background-color: #f50136;
+  background-color: #15d9e5;
   color: #ffffff;
 }
 footer ul.instagram_list {
@@ -1822,7 +1822,7 @@ footer .newsletter_form .form-control {
 }
 
 .copyright_footer {
-  background-color: #080113;
+  background-color: #1d2f45;
   padding: 15px;
 }
 .copyright_footer p {
@@ -1834,6 +1834,7 @@ footer .newsletter_form .form-control {
 .copyright_footer ul.footer_menu {
   padding: 0;
   margin: 0;
+  margin-top:8px;
   list-style: none;
   direction: rtl;
 }
