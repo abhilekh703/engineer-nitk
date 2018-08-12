@@ -57,9 +57,32 @@ $(document).ready(function() {
         delay: 5,
         time: 3000
     });
-
+    
+    var countString="2018/10/11";
+    function getRandomInt(min, max) {
+        min = Math.ceil(min);
+        max = Math.floor(max);
+        return Math.floor(Math.random() * (max - min)) + min; //The maximum is exclusive and the minimum is inclusive
+    }
+    $(".timeCrack").on('click', function(event) {
+        $(".timeCrack").animate({    
+            opacity: '1'
+            },2500);
+        $(".timeCrack").animate({
+            opacity:'0.1'
+        },2500);
+        var countString = getRandomInt(2018,2020).toString() + '/' + getRandomInt(10,12).toString() + '/' + getRandomInt(11,31).toString();
+        console.log(countString);
+        $(".countdown")
+        .countdown(countString, function(event) {
+            $(this).html(
+                event.strftime('<div>%D <span>Days</span></div>  <div>%H<span>Hours</span></div> <div>%M<span>Minutes</span></div> <div>%S<span>Seconds</span></div>')
+            );
+        });
+    });
+    
     $(".countdown")
-        .countdown("2018/10/11", function(event) {
+        .countdown(countString, function(event) {
             $(this).html(
                 event.strftime('<div>%D <span>Days</span></div>  <div>%H<span>Hours</span></div> <div>%M<span>Minutes</span></div> <div>%S<span>Seconds</span></div>')
             );
@@ -68,7 +91,7 @@ $(document).ready(function() {
     /* ==============================================
      SLIDER
      =============================================== */
-    $(".cover_slider").owlCarousel({
+    /*$(".cover_slider").owlCarousel({
         loop:true,
         autoplay:true,
         smartSpeed:1000,
@@ -80,7 +103,7 @@ $(document).ready(function() {
         animateIn: 'fadeIn',
         dotsContainer: '.cover_dots'
     });
-
+    */
     $(".brand_carousel").owlCarousel({
         loop:true,
         autoplay:true,
