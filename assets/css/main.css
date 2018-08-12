@@ -3198,3 +3198,9 @@ a.dropdown-hover:hover{
   margin-left: 50px;
   height:150px;
 }
+.img-mod{
+
+    height: 50vh;
+    width: 50vh;
+    margin-right:34vh;
+}
