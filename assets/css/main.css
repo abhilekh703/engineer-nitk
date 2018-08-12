@@ -1707,7 +1707,7 @@ header li ul.sub_menu li a:hover {
 }
 
 header.sticky_header {
-  background-color: #061625;
+  background-color: #1d2f45;
   margin: 0;
   padding: 5px;
   -webkit-box-shadow: 0 0 42px rgba(0, 0, 0, 0.08);
@@ -1736,7 +1736,7 @@ header.sticky_header {
 }
 @media (max-width: 992px) {
   header {
-    background-color: #18181c;
+    background-color: #1d2f45;
     margin: 0;
     -webkit-box-shadow: 0 0 42px rgba(0, 0, 0, 0.08);
     box-shadow: 0 0 42px rgba(0, 0, 0, 0.08);
@@ -3512,10 +3512,19 @@ a.dropdown-hover:hover{
     width: 50vh;
     margin-right:34vh;
 }
-.load-window{
-  height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.set-border{
+  width:90%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-width:1px;
+  border-style:hidden;
+  border-radius:5px;
+}
+a.set-border:hover{
+  color:#1d2f45;
+}
+
+.bg-custom{
+  background-color: #1d2f45;
 }
