@@ -3190,7 +3190,7 @@ a.dropdown-hover:hover{
 @font-face
 {
   font-family: spaceAge;
-  src:url("spaceAge.ttf") format("truetype");
+  src:url("../fonts/spaceAge.ttf") format("truetype");
 }
 .EngiTitle{
   font-family: spaceAge;
