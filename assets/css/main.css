@@ -2696,8 +2696,8 @@ Cover
 .table.event_calender tbody td img, .table.event_calender tbody th img {
   border-radius: 4px;
   display: block;
-  width: 350px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
 }
 .table.event_calender tbody td.event_date {
   font-weight: 600;
