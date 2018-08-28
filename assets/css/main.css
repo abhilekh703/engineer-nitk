@@ -3524,3 +3524,22 @@ a.set-border:hover{
 .bg-custom{
   background-color: #1d2f45;
 }
+
+.inc-font-title{
+    font-size: 120%;
+}
+@media(min-width: 768px){
+    .inc-font{
+        font-size: 120%;
+    }
+
+    .inc-font-title{
+        font-size: 140%;
+    }
+}
+
+@media(min-width: 768px){
+    .hidden-md{
+        display: none;
+    }
+}
