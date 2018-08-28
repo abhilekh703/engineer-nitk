@@ -1,9 +1,4 @@
-/*
- * Evento -  Event html  Template
- * Build Date: jan 2018
- * Author: colorlib
- * Copyright (C) 2018 colorlib
- */
+
 /* ------------------------------------- */
 /* TABLE OF CONTENTS
 /* -------------------------------------
@@ -32,7 +27,7 @@ body {
   font-weight: 400;
   font-family: "Montserrat",sans-serif;
   background-color: black;
-  color:#838383;
+  color: white /*#838383*/;
   font-style: normal;
   overflow-x: hidden;
 }
@@ -80,7 +75,7 @@ p {
   margin: 0 0 15px;
   line-height: 24px;
   font-weight: 400;
-  color: #838383;
+  color: white/*#838383*/;
 }
 p:last-child {
   margin-bottom: 0;
@@ -138,8 +133,8 @@ ul.nosyely_list {
   display: inline-block;
   padding: 25px;
   min-width: 120px;
-  background-color: rgba(4,16,31,0.8);
-  color: #16d8e4;
+  background-color: rgba(4,16,31,0.95);
+  color: white /*#16d8e4*/;
   font-size: 30px;
   font-weight: 600;
   text-align: center;
