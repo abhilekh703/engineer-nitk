@@ -26,8 +26,8 @@ body {
   line-height: 25px;
   font-weight: 400;
   font-family: "Montserrat",sans-serif;
-  background-color: black;
-  color: white /*#838383*/;
+  background-color: #0b0c10;
+  color: #c5c6c7 /*#838383*/;
   font-style: normal;
   overflow-x: hidden;
 }
@@ -1753,7 +1753,7 @@ header.sticky_header {
 -------------------------------------------------------- */
 footer {
   padding: 50px 0 100px;
-  background-color: #1b293a;
+  background-image:linear-gradient(#0a0a0a,#1b293a);
 }
 footer .footer_box {
   position: relative;
@@ -2708,8 +2708,10 @@ Cover
   font-size: 18px;
   margin-bottom: 5px;
   font-weight: 500;
+  color: #15d9e5;
 }
-.table.event_calender tbody td.event_place h6 {
+.table.event_calender tbody .event_place h6 {
+  color: #15d9e5;
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
@@ -3542,4 +3544,10 @@ a.set-border:hover{
     .hidden-md{
         display: none;
     }
+}
+        
+.countdown-bot{
+    position: absolute;
+    margin-right:auto;
+    margin-left: auto;
 }
