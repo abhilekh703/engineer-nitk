@@ -1649,7 +1649,7 @@ header .logo img {
   margin-right: 3px;
 }
 header ul.menu li a.nav-link {
-  padding: 20px 20px !important;
+  padding: 20px 20px 5px 20px !important;
   font-size: 16px;
   letter-spacing: 1px;
   font-weight: 400;
@@ -3551,3 +3551,17 @@ a.set-border:hover{
     margin-right:auto;
     margin-left: auto;
 }
+
+ul.nav-block {
+    display : flex;
+    flex-flow : column-reverse;
+    padding : 0;
+    list-style : none;
+    visibility: visible;
+}
+
+ul.nav-block:hover{
+    display : flex;
+    flex-flow : column-reverse;
+}
+
