@@ -3564,3 +3564,9 @@ ul.nav-block:hover{
     display : flex;
     flex-flow : column-reverse;
 }
+
+@media(min-width : 768px){
+    a.reduce-space{
+        padding-bottom: 5px;
+    }
+}
