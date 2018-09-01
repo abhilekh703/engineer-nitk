@@ -3,8 +3,8 @@
 <head>
     <!-- ========== Meta Tags ========== -->
     <meta charset="UTF-8">
-    <meta name="description" content="Evento -Event Html Template">
-    <meta name="keywords" content="Evento , Event , Html, Template">
+    <meta name="description" content="Engineer, Annual Techfest of NITK">
+    <meta name="keywords" content="Engineer, NITK, Engineer 2k18">
     <meta name="author" content="ColorLib">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <!-- ========== Title ========== -->
@@ -55,43 +55,51 @@
 <header class="header navbar fixed-top navbar-expand-xl">
     <div class="container-fluid">
         <a class="navbar-brand logo" href="./index.html"><div class="engi-logo">
-            <h3 class="Display-3"><span class="EngiTitle"><small>THINK. CREATE. </small>ENGINEER</span></h3></div>
+            <h3 class="Display-3"><span class="EngiTitle"><small>THINK. CREATE. </small><br><big>ENGINEER</big></span></h3></div>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#headernav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="lnr lnr-text-align-right"></span>
         </button>
         <div class="collapse navbar-collapse flex-sm-row-reverse" id="headernav">
             <ul class=" nav navbar-nav menu">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Technical</a>
+            <li class="nav-item">
+            <ul class="nav-block">
+                <li class="dropdown">
+                    <a class="nav-link dropdown-toggle reduce-space" href="#" data-toggle="dropdown">Technical Events</a>
                     <div class="dropdown-menu bg-custom">
                             <a class="dropdown-item dropdown-hover set-border" href="./tronix.html">Tronix</a>
                             <a class="dropdown-item dropdown-hover set-border" href="./Technites.html">Technites</a>
                             <a class="dropdown-item dropdown-hover set-border" href="./Mech.html">Mechanical</a>
-                            <a class="dropdown-item dropdown-hover set-border" href="#events">Chemical</a>
+                            <a class="dropdown-item dropdown-hover set-border" href="./chemical.html">Chemical</a>
                             <a class="dropdown-item dropdown-hover set-border" href="./meta.html">Metallurgy</a>
                             <a class="dropdown-item dropdown-hover set-border" href="./civil.html">Civil</a>
-                            <a class="dropdown-item dropdown-hover set-border" href="#events">Comps</a>
+                            <a class="dropdown-item dropdown-hover set-border" href="./compsoc.html">Comps</a>
                             <a class="dropdown-item dropdown-hover set-border" href="./bizwaves.html">BizWaves</a>
                             <a class="dropdown-item dropdown-hover set-border" href="./Astro.html">Astro</a>
                     </div>
                 </li>
-        		<li class="nav-item dropdown">
+        		<!--<li class="nav-item dropdown" id='#secondDropDown'>
                     <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Non-Technical</a>
-               		<div class="dropdown-menu bg-custom">
-                            <a class="dropdown-item dropdown-hover set-border" href="#events">Marketing</a>
-                            <a class="dropdown-item dropdown-hover set-border" href="./workshops.html">Workshops</a>
-                            <a class="dropdown-item dropdown-hover set-border" href="#events">Publicity</a>
-                            <a class="dropdown-item dropdown-hover set-border" href="#events">Creative</a>
-                            <a class="dropdown-item dropdown-hover set-border" href="#events">Social</a>
-                            <a class="dropdown-item dropdown-hover set-border" href="#events">Freefall</a>
-                    </div>
-                </li>
+               		<div class="dropdown-menu bg-custom">-->
+                           <!-- <a class="dropdown-item dropdown-hover set-border" href="#events">Marketing</a>-->
+                    <li class="nav-item"><a class="nav-link" href="./workshops.html">Workshops</a></li>
+                </ul></li>
+                <li class="nav-item">
+                <ul class="nav-block">
+                <li class="nav-item" ><a  class="nav-link" href="Nitkmun.html">NITK-MUN</a></li>
+                <li class="nav-item" ><a class="nav-link" href="pronites.html">Pronites</a></li>
+                    </ul></li>
+                <li class="nav-item">
+                <ul class="nav-block">
+                            <!--<a class="dropdown-item dropdown-hover set-border" href="#events">Freefall</a>-->
+                  <!--  </div>
+                </li>-->
                 <!--li class="nav-item">
                     <a class="nav-link " href="#">News</a>
                 </li-->
-                <li class="nav-item">
-                    <a class="nav-link " href="#contact">Contact</a>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                <li class="nav-item" ><a class="nav-link" href="team.html">Team Engi</a></li>
+                </ul>
                 </li>
             </ul>
         </div>
@@ -102,20 +110,19 @@
 <!--cover section slider -->
 <section id="home" class="home-cover">
     <div class="cover_slider owl-carousel owl-theme">
-        <div class="cover_item" style="background: url('0011.jpg');">
+        <div class="cover_item" style="background-image: url(0011.jpg);">
              <div class="slider_content">
                 <div class="slider-content-inner">
                     <div class="container">
                         <div class="slider-content-center">
-                            <div class="countdown"></div>
-                            </a>
-                        </div>
-                      	<img class="timeCrack" src="crack.png"></img>
-                    </div>
+                                <div class="countdown">
+                            </div></div>
+                       <!-- <img class="timeCrack" src="crack.png"></div>-->
                 </div>
             </div>
         </div>
-       
+        </div>
+    </div>
 </section>
 <!--event countdown -->
 
@@ -124,83 +131,44 @@
 
 <!--about the event -->
 <section class="pt100 pb100">
-    <div class="container">
+    <div class="container-fluid" style="padding:0 10% 5% 10%;">
         <div class="section_title">
             <h3 class="title">
                 About <span class="EngiTitle"><big>Engineer</big></span>
             </h3>
         </div>
-        <div class="row justify-content-center">
-            <div class="col-12 col-md-6">
-                <p>
-                    <b>WE THINK<br>WE CREATE<br>WE ARE ENGINEERS</b><br>
+        <div class="row justify-content-between align-items-start">
+            <div class="col-12">
+                <p class="inc-font-title">
+                    <b>WE THINK | WE CREATE | WE ARE ENGINEERS</b><br>
                 </p>
-            </div>
-            <div class="col-12 col-md-6">
-                <p>
+                <p class="inc-font">
                     Back in 2005, the marvels of NITK created a unique platform for the innovative minds to get acquainted to the aces of engineering industry.
                 </p>
             </div>
+            <div class="col-1">
+                    &nbsp;
+            </div>
         </div>
-
-        <!--event features-->
-        <!--div class="row justify-content-center mt30">
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="icon_box_one">
-                    <i class="lnr lnr-mic"></i>
-                    <div class="content">
-                        <h4>Engi connect</h4>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus massa nec graviante.
-                        </p>
-                        <a href="#">read more</a>
+            <div class="row justify-content-around">
+            <div class="col-md-4">
+        	   <div class="embed-responsive embed-responsive-16by9" style="border-width:1px;border-style:solid;border-color:white;height:120%">
+        	   	   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/60fyUAU_vnc?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div></div>
+                <div class="col-12 hidden-md" style="margin-bottom: 30px;">&nbsp;</div>
+                <div class="col-md-4">
+                    <div class="embed-responsive embed-responsive-16by9" style="border-width:1px;border-style:solid;border-color:white;height:120%;">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/KVaZ5po6gZk?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+                </div>
+                <div class="col-12 hidden-md" style="margin-bottom: 30px;">&nbsp;</div>
+                <div class="col-md-4">
+                    <div class="embed-responsive embed-responsive-16by9" style="border-width:1px;border-style:solid;border-color:white;height: 120%;">
+                    <iframe class='embed-responive-item' src="https://www.youtube.com/embed/jddaSFD_l2w?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
 
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="icon_box_one">
-                    <i class="lnr lnr-rocket"></i>
-                    <div class="content">
-                        <h4>Pro shows</h4>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus massa nec graviante.
-                        </p>
-                        <a href="#">read more</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="icon_box_one">
-                    <i class="lnr lnr-bullhorn"></i>
-                    <div class="content">
-                        <h4>Workshops</h4>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus massa nec graviante.
-                        </p>
-                        <a href="#">read more</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="icon_box_one">
-                    <i class="lnr lnr-clock"></i>
-                    <div class="content">
-                        <h4>Exhibitions</h4>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus massa nec graviante.
-                        </p>
-                        <a href="#">read more</a>
-                    </div>
-                </div>
-            </div>
-        	</div>
-        	<--event features end-->
-        	<div class="embed-responsive embed-responsive-16by9" style="margin-top:5vh; border-width:1px;border-style:solid;border-color:white;">
-        		<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/60fyUAU_vnc?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        	</div>
     </div>
 </section>
 <!--about the event end -->
@@ -215,21 +183,21 @@
         </div>
     </div>
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-3 col-sm-6 mb-4">
+        <div class="row">
+            <div class="col-md-3 col-12 mb-4">
                 <div class="speaker_box">
                     <a href="./tronix.html">
-                    <div class="speaker_img">
+                    <div class="speaker_img" >
                         <img src="assets/eventPics/Tronix.jpg" alt="speaker name">
                         <div class="info_box">
                             <h5 class="name">Tronix</h5>
-                            <p class="position">Eventss</p>
+                            <p class="position">Events</p>
                         </div>
                     </div>
                     </a>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6 mb-4">
+            <div class="col-md-3 col-12 mb-4">
                 <div class="speaker_box">
                     <a href="./Mech.html">
                     <div class="speaker_img">
@@ -243,7 +211,7 @@
                 </div>
 
             </div>
-            <div class="col-md-3 col-sm-6 mb-4">
+            <div class="col-md-3 col-12 mb-4">
                 <div class="speaker_box">
                     <a href="./meta.html">
                     <div class="speaker_img">
@@ -256,7 +224,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6 mb-4">
+            <div class="col-md-3 col-12 mb-4">
                 <div class="speaker_box">
                     <a href="#events">
                     <div class="speaker_img">
@@ -269,7 +237,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6 mb-4">
+            <div class="col-md-3 col-12 mb-4">
                 <div class="speaker_box">
                     <a href="#events">
                     <div class="speaker_img">
@@ -282,7 +250,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6 mb-4">
+            <div class="col-md-3 col-12 mb-4">
                 <div class="speaker_box">
                     <a href="#events">
                     <div class="speaker_img">
@@ -295,7 +263,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6 mb-4">
+            <div class="col-md-3 col-12 mb-4">
                 <div class="speaker_box">
                     <a href="./civil.html">
                     <div class="speaker_img">
@@ -308,7 +276,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6 mb-4">
+            <div class="col-md-3 col-12 mb-4">
                 <div class="speaker_box">
                     <a href="./Technites.html">
                     <div class="speaker_img">
@@ -346,10 +314,10 @@
                 <tbody>
                 	<tr>
                     <td>
-                        <img src="inaug.jpg" alt="event">
+                        <img class="" src="inaug.jpg" alt="event">
                     </td>
                     <td class="event_date">
-                        11
+                        10
                         <span>October</span>
                     </td>
                     <td>
@@ -368,7 +336,7 @@
                         <img src="day1.jpg" alt="event">
                     </td>
                     <td class="event_date">
-                        12
+                        11
                         <span>October</span>
                     </td>
                     <td>
@@ -386,7 +354,7 @@
                         <img src="day2.jpg" alt="event">
                     </td>
                     <td class="event_date">
-                        13
+                        12
                         <span>October</span>
                     </td>
                     <td>
@@ -405,7 +373,7 @@
                         <img src="day3.jpg" alt="event">
                     </td>
                     <td class="event_date">
-                        14
+                        13
                         <span>October</span>
                     </td>
                     <td>
@@ -424,7 +392,7 @@
                         <img src="day4.jpeg" alt="event">
                     </td>
                     <td class="event_date">
-                        15
+                        14
                         <span>October</span>
                     </td>
                     <td>
@@ -446,18 +414,28 @@
 <!--event calender end -->
 
 <!--brands section -->
-<!--section class="bg-gray pt100 pb100">
-    <div class="container">
+<section class="pt100 pb100" style="background-color: #0b0c10;">
+    <div class="container-fluid" style="padding:10%;">
         <div class="section_title mb50">
             <h3 class="title">
                 our partners
             </h3>
         </div>
-        <div class="brand_carousel owl-carousel">
-            <div class="brand_item text-center">
-                <img src="assets/img/brands/b1.png" alt="brand">
+        <div class="row justify-content-center">
+        <div class="col-5">
+        <div class='card' style="background-color: #0b0c10">
+            <img class="card-img-top img-thumbnail img-fluid" src="informatica.png" alt="Title Sponsor">
+            <div class="card-body">
+                <h4 class="card-title text-center">Title Sponsor</h4>
             </div>
+        </div>
+            </div>
+        </div>
+        <!--<div class="brand_carousel owl-carousel">
             <div class="brand_item text-center">
+                <img src="informatica.png" alt="brand">
+            </div>
+            <!--<div class="brand_item text-center">
                 <img src="assets/img/brands/b2.png" alt="brand">
             </div>
 
@@ -470,10 +448,9 @@
             <div class="brand_item text-center">
                 <img src="assets/img/brands/b5.png" alt="brand">
             </div>
-        </div>
+        </div>-->
     </div>
 </section>
-<--brands section end-->
 
 <!--get tickets section -->
 <!--section class="bg-img pt100 pb100" style="background-image: url('assets/img/bg/tickets.png');">
@@ -592,8 +569,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> by te
                         <a target="_blank" href="#contact" >Contact</a>
                     </li>
                    <!-- <li>
-                        <a target="_blank" href="news.html" >news</a>-->
-                    </li>
+                        <a target="_blank" href="news.html" >news</a>
+                    </li>-->
                 </ul>
             </div>
         </div>
@@ -619,5 +596,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> by te
 <script src="assets/js/wow.min.js"></script>
 <!-- Custom js -->
 <script src="assets/js/main.js"></script>
+<script src="assets/js/navBar.js"></script>
 </body>
 </html>

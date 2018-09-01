@@ -20,13 +20,18 @@
   =============================================== */
 'use strict';
 $(window).load(function() {
-    $('.loader').delay(2500).fadeOut('slow');
+    $('.loader').delay(1500).fadeOut('slow');
 });
+
 
 
 $(document).ready(function() {
 
+
     'use strict';
+    $(window).resize(function() {
+        checkWidth(false);
+    });
     /* ==============================================
      /*   wow
       =============================================== */
@@ -178,8 +183,11 @@ $(document).ready(function() {
         var marker = new google.maps.Marker({
             position: new google.maps.LatLng(lattuide, longtuided),
             map: map,
-            title: 'evento!'
+            title: 'Engi!'
         });
     }
 
+
 });
+
+

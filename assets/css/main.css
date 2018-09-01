@@ -1,9 +1,4 @@
-/*
- * Evento -  Event html  Template
- * Build Date: jan 2018
- * Author: colorlib
- * Copyright (C) 2018 colorlib
- */
+
 /* ------------------------------------- */
 /* TABLE OF CONTENTS
 /* -------------------------------------
@@ -31,8 +26,8 @@ body {
   line-height: 25px;
   font-weight: 400;
   font-family: "Montserrat",sans-serif;
-  background-color: black;
-  color:#838383;
+  background-color: #0b0c10;
+  color: #c5c6c7 /*#838383*/;
   font-style: normal;
   overflow-x: hidden;
 }
@@ -80,7 +75,7 @@ p {
   margin: 0 0 15px;
   line-height: 24px;
   font-weight: 400;
-  color: #838383;
+  color: white/*#838383*/;
 }
 p:last-child {
   margin-bottom: 0;
@@ -138,8 +133,8 @@ ul.nosyely_list {
   display: inline-block;
   padding: 25px;
   min-width: 120px;
-  background-color: rgba(4,16,31,0.8);
-  color: #16d8e4;
+  background-color: rgba(4,16,31,0.95);
+  color: white /*#16d8e4*/;
   font-size: 30px;
   font-weight: 600;
   text-align: center;
@@ -1654,7 +1649,7 @@ header .logo img {
   margin-right: 3px;
 }
 header ul.menu li a.nav-link {
-  padding: 20px 20px !important;
+  padding: 20px 20px 5px 20px !important;
   font-size: 16px;
   letter-spacing: 1px;
   font-weight: 400;
@@ -1758,7 +1753,7 @@ header.sticky_header {
 -------------------------------------------------------- */
 footer {
   padding: 50px 0 100px;
-  background-color: #1b293a;
+  background-image:linear-gradient(#0a0a0a,#1b293a);
 }
 footer .footer_box {
   position: relative;
@@ -2713,8 +2708,10 @@ Cover
   font-size: 18px;
   margin-bottom: 5px;
   font-weight: 500;
+  color: #15d9e5;
 }
-.table.event_calender tbody td.event_place h6 {
+.table.event_calender tbody .event_place h6 {
+  color: #15d9e5;
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
@@ -3529,3 +3526,42 @@ a.set-border:hover{
 .bg-custom{
   background-color: #1d2f45;
 }
+
+.inc-font-title{
+    font-size: 120%;
+}
+@media(min-width: 768px){
+    .inc-font{
+        font-size: 120%;
+    }
+
+    .inc-font-title{
+        font-size: 140%;
+    }
+}
+
+@media(min-width: 768px){
+    .hidden-md{
+        display: none;
+    }
+}
+        
+.countdown-bot{
+    position: absolute;
+    margin-right:auto;
+    margin-left: auto;
+}
+
+ul.nav-block {
+    display : flex;
+    flex-flow : column-reverse;
+    padding : 0;
+    list-style : none;
+    visibility: visible;
+}
+
+ul.nav-block:hover{
+    display : flex;
+    flex-flow : column-reverse;
+}
+
