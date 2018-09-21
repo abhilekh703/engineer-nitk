@@ -3565,7 +3565,6 @@ ul.nav-block:hover{
     display : flex;
     flex-flow : column-reverse;
 }
-<<<<<<< HEAD
 
 header.permanent_sticky_header {
   background-color: #1d2f45;
@@ -3583,10 +3582,8 @@ header.permanent_sticky_header {
   }
 }
 
-=======
 .center{
   width: 75%;
   margin-right: auto;
   margin-left: auto;
 }
->>>>>>> 6a7b489e1078afc6e55b85675cc89b0b27a295d2
