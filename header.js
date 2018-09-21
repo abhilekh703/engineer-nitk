@@ -2,7 +2,7 @@ document.write('<!--header start here --></div>\
 <header class="header navbar fixed-top navbar-expand-xl">\
         <div class="container-fluid">\
             <a class="navbar-brand logo" href="./index.html">\
-                <img id="coll-logo" class="img-thumbnail mr-1" style="background: none; border:none;filter: invert(100%); height:15vh;"src="../../Downloads/NITK logo.gif" alt="logo">\
+                <img id="coll-logo" class="img-thumbnail mr-1" style="background: none; border:none;filter: invert(100%); height:15vh;"src="./NITK logo.gif" alt="logo">\
                 <div class="engi-logo">\
                 <h3 class="Display-3"><span class="EngiTitle"><small>THINK. CREATE. </small><br><big>ENGINEER</big></span></h3></div>\
             </a>\
