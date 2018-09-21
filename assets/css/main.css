@@ -3564,4 +3564,8 @@ ul.nav-block:hover{
     display : flex;
     flex-flow : column-reverse;
 }
-
+.center{
+  width: 75%;
+  margin-right: auto;
+  margin-left: auto;
+}
