@@ -168,7 +168,8 @@ ul.nosyely_list {
 }
 .brand_item img {
   display: block;
-  max-width: 130px;
+  height: 200px;
+  max-width: 200px;
   margin: 0 auto;
 }
 .brand_item:hover {
