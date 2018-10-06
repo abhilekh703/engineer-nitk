@@ -17,7 +17,7 @@ document.write('<!--header start here --></div>\
                         <a class="nav-link dropdown-toggle reduce-space" href="#" data-toggle="dropdown">Technical Events</a>\
                         <div class="dropdown-menu bg-custom">\
                                 <a class="dropdown-item dropdown-hover set-border" href="http://tronix.engineernitk.org">Tronix</a>\
-                                <a class="dropdown-item dropdown-hover set-border" href="./Technites.html">Technites</a>\
+                                <a class="dropdown-item dropdown-hover set-border" href="http://technites.engineernitk.org">Technites</a>\
                                 <a class="dropdown-item dropdown-hover set-border" href="./Mech.html">Mechanical</a>\
                                 <a class="dropdown-item dropdown-hover set-border" href="./reflux.html">Reflux</a>\
                                 <a class="dropdown-item dropdown-hover set-border" href="./meta.html">Metallurgy</a>\

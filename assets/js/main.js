@@ -96,7 +96,7 @@ $(document).ready(function() {
     /* ==============================================
      SLIDER
      =============================================== */
-    /*$(".cover_slider").owlCarousel({
+    $(".cover_slider").owlCarousel({
         loop:true,
         autoplay:true,
         smartSpeed:1000,
@@ -108,7 +108,6 @@ $(document).ready(function() {
         animateIn: 'fadeIn',
         dotsContainer: '.cover_dots'
     });
-    */
     $(".brand_carousel").owlCarousel({
         loop:true,
         autoplay:true,
